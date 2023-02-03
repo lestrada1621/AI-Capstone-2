@@ -33,24 +33,24 @@ This Kaggle dataset is suitable as it contains a plethora of song data from Spot
 
 **Variables in dataset:**
 
-- **genre: Genre of the song
-- artist_name: Name of the artist who owns the song
-- track_name: Name of the song
-- track_id: Song ID
-- popularity: How popular a specific song is
-- acousticness: How acoustic sounding the song is
-- danceability:How danceable the song is
-- duration_ms: How long the song is
-- energy: How much energy a song has
-- instrumentalness: How dense in instrumentation is a song
-- key: What key a song is in
-- liveness: Does the song sound like it can be played live
-- loudness: How loud can a song be
-- mode: What mode is the song in
-- speechiness: How are the vocals delivered
-- tempo: What is the tempo of the song
-- time_signature: What is the time signature of the song
-- valence**: What is the song valence
+- **genre**: Genre of the song
+- **artist_name**: Name of the artist who owns the song
+- **track_name**: Name of the song
+- **track_id**: Song ID
+- **popularity**: How popular a specific song is
+- **acousticness**: How acoustic sounding the song is
+- **danceability**:How danceable the song is
+- **duration_ms**: How long the song is
+- **energy**: How much energy a song has
+- **instrumentalness**: How dense in instrumentation is a song
+- **key**: What key a song is in
+- **liveness**: Does the song sound like it can be played live
+- **loudness**: How loud can a song be
+- **mode**: What mode is the song in
+- **speechiness**: How are the vocals delivered
+- **tempo**: What is the tempo of the song
+- **time_signature**: What is the time signature of the song
+- **valence**: What is the song valence
 
 **(Figure 1) Cancellations per Month**
 
