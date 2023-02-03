@@ -25,44 +25,32 @@ To combat this issue,  I am looking to see if it is possible to create a song po
 Businesses would require the latest spotify music data to being making their song popularity predictions. 
 For this project, the data being used comes from a spotify dataset that includes over 232,000 songs from 2019. 
 The data set was acquired from Kaggle.com : 
-
+https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
+https://www.kaggle.com/datasets/reach2ashish/top-100-spotify-songs-2019
+https://www.kaggle.com/datasets/leonardopena/top50spotify2019
 
 This Kaggle dataset is suitable as it contains a plethora of song data from Spotify. We will explore the data, build machine learning models, and evaluate the performance of the models. 
 
 **Variables in dataset:**
 
-- hotel: Type of hotel
-- is_canceled: Our target variable. Value indicating if the booking was canceled (1) or not (0)
-- lead_time: Number of days that elapsed between the entering date of the booking into the PMS and the arrival date
-- arrival_date_year: Year of arrival date
-- arrival_date_month: Month of arrival date
-- arrival_date_week_number: Week number of year for arrival date
-- arrival_date_day_of_month: Day of arrival date
-- stays_in_weekend_nights: Number of weekend nights (Saturday or Sunday) the guest stayed or booked to stay at the hotel
-- stays_in_week_nights: Number of week nights (Monday to Friday) the guest stayed or booked to stay at the hotel
-- adults: Number of adults
-- children: Number of children
-- babies: Number of babies
-- meal: Type of meal booked
-- country: Country of origin
-- market_segment: Market segment designation
-- distribution_channel: Booking distribution channel
-- is_repeated_guest: Value indicating if the booking name was from a repeated guest (1) or not (0)
-- previous_cancellations: Number of previous bookings that were cancelled by the customer prior to the current booking
-- previous_bookings_not_canceled: Number of previous bookings not cancelled by the customer prior to the current booking
-- reserved_room_type: Code of room type reserved
-- assigned_room_type: Code of room type assigned for booking
-- booking_changes: Number of changes/amendments made to the booking from the moment the booking was entered on the PMS until the moment of check-in or cancellation
-- deposit_type: Indication on if the customer made a deposit to guarantee the booking.
-- agent: ID of the travel agency that made the booking
-- company: ID of the company/entity that made the booking or responsible for paying the booking.
-- days_in_waiting_list: Number of days the booking was in the waiting list before it was confirmed to the customer
-- customer_type: Type of booking
-- adr: Average Daily Rate as defined by dividing the sum of all lodging transactions by the total number of staying nights
-- required_car_parking_spaces: Number of parking spaces required by the customer
-- total_of_special_requests: Number of special requests made by the customer
-- reservation_status: Reservation last status
-- reservation_status_date: Date of last status update
+- **genre: Genre of the song
+- artist_name: Name of the artist who owns the song
+- track_name: Name of the song
+- track_id: Song ID
+- popularity: How popular a specific song is
+- acousticness: How acoustic sounding the song is
+- danceability:How danceable the song is
+- duration_ms: How long the song is
+- energy: How much energy a song has
+- instrumentalness: How dense in instrumentation is a song
+- key: What key a song is in
+- liveness: Does the song sound like it can be played live
+- loudness: How loud can a song be
+- mode: What mode is the song in
+- speechiness: How are the vocals delivered
+- tempo: What is the tempo of the song
+- time_signature: What is the time signature of the song
+- valence**: What is the song valence
 
 **(Figure 1) Cancellations per Month**
 
