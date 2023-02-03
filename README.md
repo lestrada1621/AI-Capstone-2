@@ -77,6 +77,29 @@ The models are available for view in the attached powerpoint
 | Classified Random Forest | 93% | 97% |
 | Classified Random Forest Tuned | 93% | 98% |
 
+## Models
+### Baseline Model
+![Dummy Classifier](https://user-images.githubusercontent.com/110399946/216667247-afd9c600-f8e0-4cc1-bb45-58242a0cf077.png)
+
+### Random Forests Model
+![Random Forests](https://user-images.githubusercontent.com/110399946/216667322-c075c357-0a6d-41a9-82a2-ef6aeb207d84.png)
+
+### Random Forests Tuned
+![Random Forests Tuned](https://user-images.githubusercontent.com/110399946/216667383-b0b0f5d6-8609-4427-b78d-329a420c8660.png)
+
+## Further Data Analysis
+### Feature Importances
+![Feature Importance](https://user-images.githubusercontent.com/110399946/216667839-89a78b96-55ad-43a9-9489-efe6d1407357.png)
+
+### Most Popular Genres
+![genre-popular](https://user-images.githubusercontent.com/110399946/216667677-855b7c49-441b-47ec-808b-b845d4a20435.jpg)
+
+### Mean Energy Scores
+![energy](https://user-images.githubusercontent.com/110399946/216668054-efb02b1a-d4e0-4019-a6b2-53e143058382.jpg)
+
+### Mean Danceability Scores
+![danceability](https://user-images.githubusercontent.com/110399946/216668103-1faaaca9-340f-409a-9080-52734081fc11.jpg)
+
 ## Conclusion
 
 **Final Model**
