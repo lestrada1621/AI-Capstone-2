@@ -6,8 +6,6 @@ Many music related businesses and services (e.g., Record Labels, Music Reviewers
 To combat this issue,  I am looking to see if it is possible to create a song popularity prediction system, to help these businesses choose songs that have the best chance of becoming popular, to apply to their playlists to achieve maximum visibility and exposure. I will be basing song popularity on a few metrics : Genre, Energy, and Danceability!
 
 
-![image]
-
 ## Business Understanding
 
 **Business Stakeholder**
@@ -93,16 +91,27 @@ The ideal next step for improvement, would be to gather more song data, from the
 ## Repository Navigation
 
 **An explanation of the repository organization**
-- hotel_bookings.csv : raw dataset used
-- notebook.ipynb : jupyter notebook for EDA, data cleaning, modeling and evaluation
-- CapstonePresentation.pdf : final presentation slides
+- Capstone Project Proposal.pdf : Capstone Proposal
+- Official Final Project.ipynb : jupyter notebook for EDA, data cleaning, modeling and evaluation. NOTE: THIS IS THE MAIN NOTEBOOK, DO NOT USE THE ONE TITLED "Final Project.ipynb" - I was having difficulty deleting it.
+- README.md : The readme that you are currently reading.
+- SpotifyFeatures.csv: The main song data set I used
+- danceability.jpg: A chart showing songs with high danceability
+- energy.jpg: A chart showing songs with the highest energy
+- genre-popular: A bar chart showing popular genres
+- genre-unpopular: A bar chart showing unpopular genres
+- spotify_top_100_2019.csv: A spotify dataset I used that has the top 100 songs for the year 2019
+- top50.csv: Another spotify dataset I used that has the top 50 songs for the year 2019
 
 **Links to the final notebook and presentation**
 - [notebook.ipynb](.//notebook.ipynb)
 - [CapstonePresentation.pdf](.//CapstonePresentation.pdf)
 
 **Reproduction instructions**
-- Download the raw dataset from Kaggle. (https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
-- Download [notebook.ipynb](.//notebook.ipynb) to run EDA, perform data cleaning, modeling, and evaluation.
+- Download the raw datasets from Kaggle:
+- https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
+- https://www.kaggle.com/datasets/reach2ashish/top-100-spotify-songs-2019
+- https://www.kaggle.com/datasets/leonardopena/top50spotify2019
+- 
+- Download Official Final Project.ipynb notebook to run EDA, perform data cleaning, modeling, and evaluation.
 
 
