@@ -52,58 +52,43 @@ This Kaggle dataset is suitable as it contains a plethora of song data from Spot
 - **time_signature**: What is the time signature of the song
 - **valence**: What is the song valence
 
-**(Figure 1) Cancellations per Month**
-
-!![image](https://user-images.githubusercontent.com/110120531/216507065-a64edf7a-e1db-41ae-8637-84c577ef9621.png)
-
-- City Hotel’s cancellations were consistent throughout the year
-- Resort Hotel faced higher cancellation percentages during the Summer months
-
-**(Figure 2) Effect of Deposit Type on Cancellations**
-
-![image](https://user-images.githubusercontent.com/110120531/216507550-1946545b-2628-47b2-b2e8-3278fc225af5.png)
-
-- Bookings with a non-refundable deposit were almost always cancelled
-- Bookings with refundable deposits were least likely to get cancelled
-
-**(Figure 3) Effect of Lead Time on Cancellations**
-
-![image](https://user-images.githubusercontent.com/110120531/216508891-1ea306d3-7060-4157-ba00-92fcba806279.png)
-
-- Lead time has a strong positive correlation with our target variable (is canceled)
-- As lead time increases, the chance of cancellation increases
-
-**(Figure 4) Effect of Returning Guests on Cancellations**
-
-![image](https://user-images.githubusercontent.com/110120531/216508921-e4024fe0-5418-4b01-a0a4-660a962bb2ee.png)
-
-- Guests that have never been to the hotel are more likely to cancel their booking
-- Returning guests are less likely to cancel their booking
+## Data Preparation
+### Data Cleaning: Scrubbing
+#### Original song dataset contained duplicative information.
+**Example 1**: The genre “Children’s Music” shows up twice in the data set. I had to merge the two “Children’s Music” values to achieve consistency
+**Example 2**: There were a total of 55,951 duplicative song tracks in the dataset. I had to aggregate all of the duplicate songs into a single row
+### Data Cleaning: One Hot Encoding
+In order to pre-process most of the categorical features of my dataset for my machine learning models, I had to do some one hot encoding.
+### Data Cleaning: Outlier Removal
+- When viewing song popularity from the top 100 songs on Spotify from 2019, there were a big number of outliers, which would skew my results if I kept in.
+- I performed an Interquartile Range method to remove my dataset of any statistical outliers
 
 ## Modeling and Evaluation
 
-The two models I used were Logistic Regression (baseline model) and Random Forest Classifier. The Random Forest Classifier was tuned using GridSearchCV.
+The two models I used were dummy classifer (baseline model) and Random Forest Classifier. 
+The Random Forest Classifier was tuned using GridSearchCV.
 
-The metrics I used to evaluate the model performance were accuracy score and recall score. 
+The metrics I used to evaluate the model performance were accuracy score and recall score.
 
-**(Table 2) Model Performance**
+The models are available for view in the attached powerpoint
+
+**Model Performance**
 | Model | Accuracy | Recall Score |
 |-------|----------|----------------------------|
-| Logistic Regression | 81% | 95% |
-| Classified Random Forest | 95% | 99% |
-| Classified Random Forest Tuned | 87% | 99% |
+| Dummy Classifier| 50% | 51% |
+| Classified Random Forest | 93% | 97% |
+| Classified Random Forest Tuned | 93% | 98% |
 
 ## Conclusion
 
 **Final Model**
-The Random Forest Classifier is the ideal model, as it has an accuracy of 95% and a recall score of 99%.
+The Random Forest Classifier is the ideal model, as it has an accuracy of 93% and a recall score of 98%
 
 **Limitations**
-The limitations of this dataset is that there may be more factors that affect cancellation, such as the hotel’s location, the number of hotels around the area, and the hotel's rating.
+The limitations of this dataset may be that there are not enough song attributes, which may affect the integrity of this project slightly.
 
 **Next Steps for Improvements**
-By gathering more data with extra columns and from more hotels, we would expect our model to perform even better because random forest's performance enhances with a larger data.
-Once we have a larger data, we can also implement even more advanced models such as neural network. 
+The ideal next step for improvement, would be to gather more song data, from the latest year (2022), to have a more accurate assessment of what songs may be popular, since some genres/song types fade in popularity with time.
 
 ## Repository Navigation
 
