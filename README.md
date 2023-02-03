@@ -102,9 +102,6 @@ The ideal next step for improvement, would be to gather more song data, from the
 - spotify_top_100_2019.csv: A spotify dataset I used that has the top 100 songs for the year 2019
 - top50.csv: Another spotify dataset I used that has the top 50 songs for the year 2019
 
-**Links to the final notebook and presentation**
-- [notebook.ipynb](.//notebook.ipynb)
-- [CapstonePresentation.pdf](.//CapstonePresentation.pdf)
 
 **Reproduction instructions**
 - Download the raw datasets from Kaggle:
